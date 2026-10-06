@@ -11,9 +11,9 @@ if scriptId then
     ))()
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
-        Title    = "TX Script",
-        Text     = "No support",
-        Icon     = "rbxassetid://82031063194606",
+        Title = "TX Script",
+        Text = "No support",
+        Icon = "rbxassetid://82031063194606",
         Duration = 10,
     })
 end
