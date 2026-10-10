@@ -7,7 +7,7 @@ local scriptId = SCRIPTS[game.PlaceId]
 
 if scriptId then
     loadstring(game:HttpGet(
-        ("https://api.polsec.sh/loader/5175ae9f8ae69150/%s"):format(scriptId)
+        ("https://api.polsec.net/loader/5175ae9f8ae69150/%s"):format(scriptId)
     ))()
 else
     game:GetService("StarterGui"):SetCore("SendNotification", {
